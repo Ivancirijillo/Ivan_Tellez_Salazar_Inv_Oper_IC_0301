@@ -1,0 +1,7 @@
+<map id="gnuplot_setstyle" name="gnuplot_setstyle">
+<area shape="rect" id="node1" title="Change the plotting style of a gnuplot session." alt="" coords="415,31,532,57"/>
+<area shape="rect" id="node2" href="$gnuplot__i_8h.html#af38602f2bf3bf427b4c6af1e3cc6f371" title="Opens up a gnuplot session, ready to receive commands." alt="" coords="279,31,367,57"/>
+<area shape="rect" id="node3" href="$gnuplot__i_8h.html#aa39b56b6bb882ace839a3be677d1f665" title="Open a new session, plot a signal, close the session." alt="" coords="104,5,231,32"/>
+<area shape="rect" id="node4" href="$gnuplot__i_8h.html#a810f2ef3aa51bde83c46af4a3eca4072" title="graficar() da inicio a la graficacion de la funcion." alt="" coords="135,68,199,95"/>
+<area shape="rect" id="node5" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,68,56,95"/>
+</map>

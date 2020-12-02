@@ -1,0 +1,10 @@
+<map id="graficar" name="graficar">
+<area shape="rect" id="node1" title="graficar() da inicio a la graficacion de la funcion." alt="" coords="5,157,69,184"/>
+<area shape="rect" id="node2" href="$gnuplot__i_8c.html#a416bd48453ce016d6419f0f39fa5c625" title="Closes a gnuplot session previously opened by gnuplot_init()" alt="" coords="131,5,234,32"/>
+<area shape="rect" id="node3" href="$gnuplot__i_8c.html#a8c71c6b7a0d957fa9280bf4b984bf43a" title="Sends a command to an active gnuplot session." alt="" coords="307,132,403,159"/>
+<area shape="rect" id="node4" href="$gnuplot__i_8c.html#af38602f2bf3bf427b4c6af1e3cc6f371" title="Opens up a gnuplot session, ready to receive commands." alt="" coords="139,259,227,285"/>
+<area shape="rect" id="node5" href="$gnuplot__i_8c.html#a6e5c073fc8478c3ea121f308254b683a" title="Change the plotting style of a gnuplot session." alt="" coords="296,284,413,311"/>
+<area shape="rect" id="node6" href="$gnuplot__i_8c.html#a0622d593434823fccadcc4415db5fe2d" title="Plot a slope on a gnuplot session." alt="" coords="117,107,248,133"/>
+<area shape="rect" id="node7" href="$gnuplot__i_8c.html#a7ca8edad06bd82e47329b2ab8341c42e" title="Sets the x label of a gnuplot session." alt="" coords="117,157,248,184"/>
+<area shape="rect" id="node8" href="$gnuplot__i_8c.html#a9227fc7321820f696e91f76c15c6ffe3" title="Sets the y label of a gnuplot session." alt="" coords="117,208,248,235"/>
+</map>
