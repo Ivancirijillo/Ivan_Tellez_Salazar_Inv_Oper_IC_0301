@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gestión de colas de espera.: Fichero Fuente C:/Users/PC/Desktop/Ivan_Tellez_Salazar_Inv_Oper_IC_0301/Ivan_Tellez_Salazar_Inv_Oper_IC_0301/Clientes/Codigo/clientesTab.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Gestión de colas de espera.
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_31b61a3b834bb2bc2e9c47b84dd0f3c6.html">Ivan_Tellez_Salazar_Inv_Oper_IC_0301</a></li><li class="navelem"><a class="el" href="dir_f016f3808b955b7371ca70b5cc44206d.html">Ivan_Tellez_Salazar_Inv_Oper_IC_0301</a></li><li class="navelem"><a class="el" href="dir_3f06aa3d0867d58fdb931514f538991f.html">Clientes</a></li><li class="navelem"><a class="el" href="dir_a3516ded0e7b0c1f3521a71a76aec6b1.html">Codigo</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">clientesTab.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="clientes_tab_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef __clientesTab_h</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define __clientesTab_h</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="clientes_tab_8h.html#ae0b4816fb45161ef9da5e6d6134ee28a">    7</a></span>&#160;<span class="preprocessor">#define TAM 24</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">void</span> <a class="code" href="clientes_tab_8h.html#a323761088d7fd811f1cfca8e2d88e7ea">imprimir</a>(<span class="keywordtype">int</span> horas,<span class="keywordtype">int</span> matriz[7][<a class="code" href="clientes_tab_8h.html#ae0b4816fb45161ef9da5e6d6134ee28a">TAM</a>]);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">void</span> <a class="code" href="clientes_tab_8h.html#a218ca31a77d0ef767564b8a5be936348">llenadoDatos</a>(<span class="keywordtype">int</span> horas, <span class="keywordtype">int</span> horasMatriz[][2],<span class="keywordtype">int</span> matriz[7][<a class="code" href="clientes_tab_8h.html#ae0b4816fb45161ef9da5e6d6134ee28a">TAM</a>]);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span> <a class="code" href="clientes_tab_8h.html#a125a2c12184722d6d97c4692a7239936">capacidadSalida</a>(<span class="keywordtype">int</span> rango, <span class="keywordtype">int</span> capaciad, <span class="keywordtype">int</span> matriz[7][<a class="code" href="clientes_tab_8h.html#ae0b4816fb45161ef9da5e6d6134ee28a">TAM</a>]);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> <a class="code" href="clientes_tab_8h.html#aeec12e2d838921c69ce73e38316dd4df">salidaClientes</a>(<span class="keywordtype">int</span> rango, <span class="keywordtype">int</span> matriz[7][<a class="code" href="clientes_tab_8h.html#ae0b4816fb45161ef9da5e6d6134ee28a">TAM</a>]);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">void</span> <a class="code" href="clientes_tab_8h.html#abb06e61fb4ecc56c0d83a1050d87a261">input</a>(<span class="keywordtype">int</span> rango, <span class="keywordtype">int</span> matriz[7][<a class="code" href="clientes_tab_8h.html#ae0b4816fb45161ef9da5e6d6134ee28a">TAM</a>]);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keywordtype">void</span> <a class="code" href="clientes_tab_8h.html#af3c84289f13464baf17a37a203ea47c8">output</a>(<span class="keywordtype">int</span> rango, <span class="keywordtype">int</span> matriz[7][<a class="code" href="clientes_tab_8h.html#ae0b4816fb45161ef9da5e6d6134ee28a">TAM</a>]);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keywordtype">void</span> <a class="code" href="clientes_tab_8h.html#a9317bfa0328fe2f3b9d98405fe2c93aa">recomendacion</a>(<span class="keywordtype">int</span> rango, <span class="keywordtype">int</span> matriz[7][<a class="code" href="clientes_tab_8h.html#ae0b4816fb45161ef9da5e6d6134ee28a">TAM</a>],<span class="keywordtype">int</span> capaciad);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#endif</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aclientes_tab_8h_html_abb06e61fb4ecc56c0d83a1050d87a261"><div class="ttname"><a href="clientes_tab_8h.html#abb06e61fb4ecc56c0d83a1050d87a261">input</a></div><div class="ttdeci">void input(int rango, int matriz[7][TAM])</div><div class="ttdoc">Se realiza el calculo correspondiente para Input.</div><div class="ttdef"><b>Definition:</b> <a href="clientes_tab_8c_source.html#l00133">clientesTab.c:133</a></div></div>
+<div class="ttc" id="aclientes_tab_8h_html_a125a2c12184722d6d97c4692a7239936"><div class="ttname"><a href="clientes_tab_8h.html#a125a2c12184722d6d97c4692a7239936">capacidadSalida</a></div><div class="ttdeci">void capacidadSalida(int rango, int capaciad, int matriz[7][TAM])</div><div class="ttdoc">Se realiza el calculo correspondiente a la capcidad de salida.</div><div class="ttdef"><b>Definition:</b> <a href="clientes_tab_8c_source.html#l00089">clientesTab.c:89</a></div></div>
+<div class="ttc" id="aclientes_tab_8h_html_af3c84289f13464baf17a37a203ea47c8"><div class="ttname"><a href="clientes_tab_8h.html#af3c84289f13464baf17a37a203ea47c8">output</a></div><div class="ttdeci">void output(int rango, int matriz[7][TAM])</div><div class="ttdoc">Se realiza el calculo correspondiente para Output.</div><div class="ttdef"><b>Definition:</b> <a href="clientes_tab_8c_source.html#l00150">clientesTab.c:150</a></div></div>
+<div class="ttc" id="aclientes_tab_8h_html_ae0b4816fb45161ef9da5e6d6134ee28a"><div class="ttname"><a href="clientes_tab_8h.html#ae0b4816fb45161ef9da5e6d6134ee28a">TAM</a></div><div class="ttdeci">#define TAM</div><div class="ttdef"><b>Definition:</b> <a href="clientes_tab_8h_source.html#l00007">clientesTab.h:7</a></div></div>
+<div class="ttc" id="aclientes_tab_8h_html_a218ca31a77d0ef767564b8a5be936348"><div class="ttname"><a href="clientes_tab_8h.html#a218ca31a77d0ef767564b8a5be936348">llenadoDatos</a></div><div class="ttdeci">void llenadoDatos(int horas, int horasMatriz[][2], int matriz[7][TAM])</div><div class="ttdoc">Solicita el usuario los datos de hora de inicio-fin, el número de cajas y el número de clientes en es...</div><div class="ttdef"><b>Definition:</b> <a href="clientes_tab_8c_source.html#l00063">clientesTab.c:63</a></div></div>
+<div class="ttc" id="aclientes_tab_8h_html_aeec12e2d838921c69ce73e38316dd4df"><div class="ttname"><a href="clientes_tab_8h.html#aeec12e2d838921c69ce73e38316dd4df">salidaClientes</a></div><div class="ttdeci">void salidaClientes(int rango, int matriz[7][TAM])</div><div class="ttdoc">Se realiza el calculo correspondiente a la salida de clientes y a la cola de espera.</div><div class="ttdef"><b>Definition:</b> <a href="clientes_tab_8c_source.html#l00102">clientesTab.c:102</a></div></div>
+<div class="ttc" id="aclientes_tab_8h_html_a323761088d7fd811f1cfca8e2d88e7ea"><div class="ttname"><a href="clientes_tab_8h.html#a323761088d7fd811f1cfca8e2d88e7ea">imprimir</a></div><div class="ttdeci">void imprimir(int horas, int matriz[7][TAM])</div><div class="ttdoc">Imprime la matriz en forma de tabla.</div><div class="ttdef"><b>Definition:</b> <a href="clientes_tab_8c_source.html#l00013">clientesTab.c:13</a></div></div>
+<div class="ttc" id="aclientes_tab_8h_html_a9317bfa0328fe2f3b9d98405fe2c93aa"><div class="ttname"><a href="clientes_tab_8h.html#a9317bfa0328fe2f3b9d98405fe2c93aa">recomendacion</a></div><div class="ttdeci">void recomendacion(int rango, int matriz[7][TAM], int capaciad)</div><div class="ttdoc">Con los datos obtenidos de Input y Output se realiza una recomendación.</div><div class="ttdef"><b>Definition:</b> <a href="clientes_tab_8c_source.html#l00169">clientesTab.c:169</a></div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>
